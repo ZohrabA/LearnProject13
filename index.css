@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+body{
+    background-color: teal;
+}
+
+
+#calck{
+width: 20%;
+height: 500px;
+background-color: chocolate;
+margin: 20px auto;
+}
+#header{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+#lastcavab{
+    width: 100%;
+    height: 50%;
+    background-color: goldenrod ;
+    color: black;
+padding: 0 10px;
+font-size: 20px;
+font-weight: 400;
+}
+
+
+#cavab{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+
+#footer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+#footone{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#foottwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+    height: 100%;
+    padding: 5px;
+}
+
+#footone span{
+    width: 33%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: black;
+    color: chocolate;
+    border: 2px solid chocolate;
+    cursor: pointer;
+}
+
+#footone div{
+    width: 33%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: black;
+    color: chocolate;
+    border: 2px solid chocolate;
+    cursor: pointer;
+}
+
+
+#foottwo span{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: black;
+    color: chocolate;
+    border: 2px solid chocolate;
+    cursor: pointer;
+}
+#equal {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: black;
+    color: chocolate;
+    border: 2px solid chocolate;
+    cursor: pointer;
+}
+#header input::placeholder{
+    opacity: 1;
+    color: black;
+}
+
+
+.ok{
+    border: 2px solid blue !important;
+}
+
+.okk{
+    border: 2px solid gold !important;
+}
+
+.okkk{
+    border: 2px solid red !important;
+}
+
+.okkkk{
+    border: 2px solid green !important;
+}
